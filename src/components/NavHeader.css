@@ -1,0 +1,10 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selector {
+  border: solid #333 0px;
+  border-width: 0px 0px 5px;
+  padding: 8px 0px;
+}

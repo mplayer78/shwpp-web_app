@@ -1,0 +1,41 @@
+.background-image {
+  width: calc(min(50vw, 200px));
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting {
+  text-align: center;
+  position: relative;
+  padding-top: 4em;
+}
+
+.signinButton {
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.createAccountLink {
+  align-self: center;
+}
+
+.createAccountLink a {
+  font-weight: bold;
+  text-decoration: underline;
+}
